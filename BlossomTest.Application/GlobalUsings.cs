@@ -1,0 +1,12 @@
+﻿global using MediatR;
+global using DomainValidation;
+global using FluentValidation;
+global using System.Globalization;
+global using FluentValidation.Results;
+global using Microsoft.Extensions.Logging;
+global using Microsoft.EntityFrameworkCore;
+global using BlossomTest.Domain.Enums;
+global using BlossomTest.Application.Errors;
+global using BlossomTest.Application.Common;
+global using BlossomTest.Domain.ValueObjects;
+global using BlossomTest.Application.Common.Interfaces;
